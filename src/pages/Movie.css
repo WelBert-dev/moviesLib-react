@@ -1,0 +1,63 @@
+
+
+/* Container inteiro */
+
+.SingleMovie-page {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.SingleMovie-page svg{
+    font-size: 1.5rem;
+    color: #f7d354;
+}
+
+.SingleMovie-page .movie-card {
+    text-align: center;
+}
+
+.SingleMovie-page .movie-card img,
+.SingleMovie-page .movie-card h2,
+.SingleMovie-page .movie-card p {
+    margin-bottom: 1rem;
+    
+}
+
+.SingleMovie-page .movie-card h2 {
+    font-size: 2rem;
+}
+
+.SingleMovie-page .movie-card p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.tagline {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.SingleInfo {
+    margin-bottom: 1.5rem;
+}
+
+.SingleInfo h3 {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+} 
+
+.description {
+    padding-bottom: 13rem;
+}
+
+.description p {
+    line-height: 1.4rem;
+}
